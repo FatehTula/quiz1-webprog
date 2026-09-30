@@ -1,0 +1,65 @@
+/* Background website menjadi hitam */
+body { 
+    background-color: #121212; 
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../image/Gili Labak Island - Madura, East Java.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content-section { 
+    padding: 8rem 80px; 
+
+}
+
+.active-menu { 
+    background-color: orange!important; 
+    color: white !important; 
+}
+
+.page-title { 
+    text-align: center; 
+    font-size: 45px; 
+    margin-bottom: 40px; 
+    color: #ffffff; /* Judul halaman menjadi putih */
+}
+
+/* Mengatur agar kotak berjejer 3 ke samping */
+.grid-container { 
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+/* Kotak kartu menjadi abu-abu gelap dengan teks terang */
+.card { 
+    background: #1e1e1e; 
+    padding: 30px; 
+    border-radius: 12px; 
+    width: 30%; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+    color: #e0e0e0; 
+    transition: transform 0.2s ease;
+}
+
+.card:hover { 
+    transform: translateY(-10px); 
+}
+
+.card h3 { 
+    color: orange; /* Warna judul kartu wisata */
+    margin-bottom: 15px; 
+}
+
+.card p { 
+    line-height: 1.6; 
+    color: #cccccc; /* Teks deskripsi terang */
+}
+
+/* Pengaturan foto agar seragam dan rapi */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}

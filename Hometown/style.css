@@ -1,5 +1,5 @@
 body { 
-    background-color: #121212; /* Background website hitam */
+    background-color: #121212; 
      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../image/Sawah.jpg') no-repeat center center fixed;
     background-size: cover;
 }
@@ -17,12 +17,12 @@ body {
     text-align: center; 
     font-size: 45px; 
     margin-bottom: 40px; 
-    color: #ffffff; /* Tulisan "Kota Kelahiranku: Sumenep" menjadi putih */
+    color: #ffffff; 
 }
 
-/* Kotak Cerita Utama */
+
 .hometown-box { 
-    background: #1e1e1e; /* Warna latar belakang kotak menjadi abu-abu gelap */
+    background: #1e1e1e; 
     border-radius: 12px; 
     max-width: 900px; 
     margin: 0 auto; 
@@ -31,14 +31,12 @@ body {
     color: #e0e0e0;
 }
 
-/* Gambar Besar (Hero Image) untuk Hometown */
 .hometown-image {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-/* Area Teks Cerita */
 .hometown-text {
     padding: 40px;
 }
@@ -56,6 +54,6 @@ body {
     font-size: 18px;
     line-height: 1.8;
     margin-bottom: 15px;
-    color: #cccccc; /* Warna paragraf terang agar nyaman dibaca */
+    color: #cccccc; 
     text-align: justify;
 }

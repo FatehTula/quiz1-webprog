@@ -1,0 +1,62 @@
+/* Background website menjadi hitam */
+body { 
+    background-color: #121212; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../image/ITS.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content-section { 
+    padding: 8rem 80px; 
+}
+
+.active-menu { 
+    background-color: orange !important; 
+    color: white !important; 
+}
+
+/* Kotak profil berubah menjadi abu-abu gelap dengan teks terang */
+.profile-box { 
+    background: #1e1e1e; 
+    padding: 40px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    color: #e0e0e0; 
+}
+
+.profile-box h1 { 
+    font-size: 40px; 
+    margin-bottom: 10px; 
+    color: #ffffff; /* Judul nama menjadi putih bersih */
+}
+
+.profile-box p {
+    color: #b0b0b0; /* Subtitle menjadi abu-abu terang */
+}
+
+.divider {
+    margin: 20px 0;
+    border-color: #444444;
+}
+
+.profile-box h3 { 
+    color: #f39c12; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #f39c12; 
+    display: inline-block; 
+    padding-bottom: 5px; 
+}
+
+.profile-box ul { 
+    margin-left: 20px; 
+    line-height: 1.8; 
+    margin-top: 10px; 
+    color: #cccccc; /* Teks daftar poin menjadi terang */
+}
+
+.profile-box ul li strong {
+    color: #ffffff; /* Tulisan tebal menjadi putih agar kontras */
+}
+

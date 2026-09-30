@@ -80,7 +80,7 @@ section{
 .hero-section {
    padding : 0;
    height : 100vh;
-   background : linear-gradient(to left,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/Fotoku.jpeg') no-repeat center center/cover;
+   background : linear-gradient(to left,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/Fotoku.jpeg') no-repeat center center/cover;
    background-size : cover;
    background-position : center;
 }

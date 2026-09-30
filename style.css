@@ -34,7 +34,6 @@ header {
     align-items: center;
 }
 
-/* --- Tautan Menu Biasa (Profile, Hometown, Food) --- */
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -42,21 +41,19 @@ nav ul li a {
     padding: 10px 15px;
     border-radius: 8px; 
     transition: all 0.2s ease;
-    display: inline-block; /* Membuat area klik berbentuk kotak */
+    display: inline-block; 
 }
 
-/* Efek Sorot (Hover) untuk menu biasa */
+
 nav ul li a:hover:not(.tombol-oranye) {
     background-color: rgba(255, 255, 255, 0.2); 
 }
 
-/* Efek SAAT DIPENCET untuk menu biasa */
 nav ul li a:active:not(.tombol-oranye) {
     transform: scale(0.92); 
     background-color: #0d6efd; 
 }
 
-/* --- Gaya Tombol Oranye (Tourist) --- */
 .tombol-oranye {
     background-color: #f39c12;
     color: white !important;
@@ -66,7 +63,6 @@ nav ul li a:active:not(.tombol-oranye) {
     display: inline-block;
 }
 
-/* Efek SAAT DIPENCET (Klik Mouse) untuk tombol oranye */
 .tombol-oranye:active {
     transform: scale(0.92); 
     background-color: #d68910; 
@@ -76,7 +72,6 @@ nav ul li a:active:not(.tombol-oranye) {
 section{
     padding: 11rem 80px;
 }
-/* start hero section */
 .hero-section {
    padding : 0;
    height : 100vh;
@@ -109,9 +104,7 @@ section{
  color : white;
 }
 
-/* end hero section */
 
-/* --- Animasi Hamburger Menu --- */
 .header-container .menu-toggle span:nth-child(2) {
     transform-origin: left;
 }
@@ -131,8 +124,8 @@ section{
 
  .card img {
     width: 100%;
-    height: 200px; /* Tinggi foto diseragamkan */
-    object-fit: cover; /* Memastikan foto tidak gepeng */
-    border-radius: 8px; /* Ujung foto agak melengkung */
-    margin-bottom: 15px; /* Jarak antara foto dan judul */
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
 }
